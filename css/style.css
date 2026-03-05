@@ -1,23 +1,22 @@
 body{
-font-family: Arial;
 margin:0;
+font-family:Arial;
 }
 
 
-/* Navbar */
-
 nav{
-background:white;
-padding:10px 30px;
 display:flex;
-align-items:center;
 justify-content:space-between;
+align-items:center;
+padding:10px 40px;
+background:white;
 border-bottom:1px solid #ddd;
+position:fixed;
+width:100%;
 }
 
 .logo img{
 height:45px;
-cursor:pointer;
 }
 
 .menu a{
@@ -28,36 +27,62 @@ font-weight:bold;
 }
 
 
-/* Hero Section */
-
 .hero{
+height:100vh;
+background:url("../images/hero-bg.png") center/cover no-repeat;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 text-align:center;
-padding:120px;
-background:#f5f5f5;
+color:black;
 }
+
 
 .hero h1{
-font-size:40px;
-margin-bottom:10px;
+font-size:50px;
 }
 
-.hero p{
-font-size:18px;
-margin-bottom:25px;
+.buttons{
+margin-top:20px;
 }
 
 
-button{
-padding:12px 25px;
-margin:10px;
-font-size:16px;
-cursor:pointer;
-border:none;
+.btn{
 background:#ff4d4d;
 color:white;
-border-radius:5px;
+padding:12px 25px;
+text-decoration:none;
+margin:10px;
+border-radius:6px;
 }
 
-button:hover{
-background:#e43b3b;
+
+.section{
+padding:100px 40px;
+text-align:center;
+}
+
+
+.course-grid{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:30px;
+}
+
+
+.course-card{
+background:#f5f5f5;
+padding:25px;
+width:250px;
+border-radius:10px;
+}
+
+
+footer{
+text-align:center;
+padding:30px;
+background:#111;
+color:white;
 }
