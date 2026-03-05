@@ -7,7 +7,7 @@ nav{
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:12px 60px;
+padding:10px 60px;
 background:transparent;
 position:fixed;
 top:0;
@@ -18,7 +18,7 @@ z-index:1000;
 }
 
 .logo img{
-height:65px;
+height:90px;
 width:auto;
 }
 
@@ -97,7 +97,7 @@ border-radius:10px;
 
 footer{
 text-align:center;
-padding:20px;
+padding:30px;
 background:#111;
 color:white;
 }
