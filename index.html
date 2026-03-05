@@ -1,50 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
 <title>LOGIP Technologies</title>
 
-<style>
-
-body{
-font-family: Arial;
-margin:0;
-}
-
-nav{
-background:#111;
-padding:10px 20px;
-display:flex;
-align-items:center;
-}
-
-nav img{
-height:40px;
-margin-right:30px;
-cursor:pointer;
-}
-
-nav a{
-color:white;
-margin-right:25px;
-text-decoration:none;
-font-weight:bold;
-}
-
-.hero{
-text-align:center;
-padding:120px;
-background:#f5f5f5;
-}
-
-button{
-padding:12px 25px;
-margin:10px;
-font-size:16px;
-cursor:pointer;
-}
-
-</style>
+<link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -52,27 +13,34 @@ cursor:pointer;
 
 <nav>
 
-<a href="index.html">
-<img src="https://share.google/iTdg1GZCnbmQayScp" alt="LOGIP Logo">
+<a href="index.html" class="logo">
+<img src="images/logo.png">
 </a>
 
+<div class="menu">
 <a href="courses.html">Courses</a>
 <a href="verify.html">Verify Certificate</a>
 <a href="about.html">About Us</a>
+</div>
 
 </nav>
 
-<div class="hero">
+
+<section class="hero">
 
 <h1>LOGIP Technologies</h1>
 
 <p>Building Skills for the Future of Technology</p>
 
-<button onclick="location.href='courses.html'">View Courses</button>
+<button onclick="location.href='courses.html'">
+View Courses
+</button>
 
-<button onclick="location.href='verify.html'">Verify Certificate</button>
+<button onclick="location.href='verify.html'">
+Verify Certificate
+</button>
 
-</div>
+</section>
 
 </body>
 </html>
