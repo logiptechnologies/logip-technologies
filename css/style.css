@@ -289,6 +289,38 @@ color:#ff4d4d;
 color:#0077b5;
 }
 
+.verify-section{
+padding:120px 40px;
+text-align:center;
+}
+
+.verify-section input{
+padding:12px;
+width:250px;
+margin-top:20px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+.verify-section button{
+padding:12px 20px;
+margin-left:10px;
+background:#ff4d4d;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+.verify-section button:hover{
+background:#e63939;
+}
+
+#result{
+margin-top:30px;
+font-size:18px;
+}
+
 footer{
 text-align:center;
 padding:10px;
