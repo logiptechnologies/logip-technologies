@@ -11,7 +11,7 @@
 <nav>
 
 <a href="index.html" class="logo">
-<img src="images/logo.png">
+<img src="images/logo1.png">
 </a>
 
 <div class="menu">
@@ -22,17 +22,17 @@
 
 </nav>
 
-<section class="section">
 
-<h1>Verify Certificate</h1>
-
-<p>Enter certificate ID to verify authenticity.</p>
-
-<input type="text" placeholder="Enter Certificate ID">
-
-<button>Verify</button>
-
+<section class="verify-section">
+  <h1>Verify Certificate</h1>
+  <p>Enter the certificate ID to verify authenticity.</p>
+  <input type="text" id="certID" placeholder="Enter Certificate ID">
+  <button onclick="verifyCertificate()">Verify</button>
+  <div id="result"></div>
 </section>
+
+
+<script src="js/verify.js"></script>
 
 </body>
 </html>
