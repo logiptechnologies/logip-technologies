@@ -95,6 +95,35 @@ width:250px;
 border-radius:10px;
 }
 
+.contact-links{
+margin-top:25px;
+display:flex;
+justify-content:center;
+gap:30px;
+}
+
+.contact-links a{
+font-size:28px;
+color:#333;
+transition:0.3s;
+}
+
+.contact-links a:hover{
+transform:scale(1.3);
+}
+
+.contact-links a:nth-child(1):hover{
+color:#25D366;
+}
+
+.contact-links a:nth-child(2):hover{
+color:#ff4d4d;
+}
+
+.contact-links a:nth-child(3):hover{
+color:#0077b5;
+}
+
 footer{
 text-align:center;
 padding:10px;
