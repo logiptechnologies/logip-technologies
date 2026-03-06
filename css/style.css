@@ -101,3 +101,14 @@ padding:10px;
 background:#111;
 color:white;
 }
+
+footer a{
+color:#ccc;
+text-decoration:none;
+margin:0 8px;
+font-size:14px;
+}
+
+footer a:hover{
+color:white;
+}
